@@ -1,0 +1,9 @@
+Feature: Login User
+
+  Scenario: Login user
+    Then Click "Sign in" button
+    Then input login
+    Then input password
+    Then Click "submit" button span
+    Then Content with "Welcome on board" visible
+
